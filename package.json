@@ -1,5 +1,5 @@
 {
-  "name": "tvux-store-plugin",
+  "name": "tvux-store",
   "version": "0.0.1",
   "description": "A simple, straight forward Vue 3 store plugin with devtools integration",
   "author": {
