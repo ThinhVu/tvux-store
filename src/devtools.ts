@@ -1,12 +1,8 @@
 // @ts-nocheck
-
 import { setupDevtoolsPlugin, DevtoolsPluginApi } from '@vue/devtools-api'
 import { App } from 'vue'
 import { MyPluginData } from './data'
-import {ref, isRef, isReactive, ComputedRefSymbol} from 'vue';
 
-const x = ref(5)
-Object.hasOwn(x, ComputedRefSymbol)
 export function setupDevtools (app: App, data: MyPluginData) {
   const stateType = 'Tvux Store Plugin state'
   const inspectorId = 'tvux-store'
