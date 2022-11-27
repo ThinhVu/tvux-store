@@ -1,4 +1,9 @@
-# Example Vue 3 plugin with devtools integration
+# Tvux-Store
+
+A pinia alternative store.
+
+### Notice
+The plugin is not build for SSR use.
 
 Usage in app:
 
