@@ -57,3 +57,11 @@ initApp()
 import {userStore} from '@/store/user'
 </script>
 ```
+
+```javascript
+// list reactivity variable in vue dev tools for easier to inspect
+import TvuxStore from 'tvux-store';
+import {ref} from 'vue'
+const age = ref(30)
+TvuxStore.list('person', 'age', age)
+```
