@@ -6,17 +6,17 @@
     "name": "Thinh Vu",
     "email": "thinhvux@protonmail.com"
   },
-  "main": "dist/my-plugin.cjs.js",
-  "module": "dist/my-plugin.esm-bundler.js",
-  "unpkg": "dist/my-plugin.global.js",
-  "jsdelivr": "dist/my-plugin.global.js",
+  "main": "dist/tvux-store.cjs.js",
+  "module": "dist/tvux-store.esm-bundler.js",
+  "unpkg": "dist/tvux-store.global.js",
+  "jsdelivr": "dist/tvux-store.global.js",
   "types": "dist/index.d.ts",
   "exports": {
     ".": {
-      "require": "./dist/my-plugin.cjs.js",
-      "browser": "./dist/my-plugin.esm-browser.js",
-      "import": "./dist/my-plugin.esm-bundler.js",
-      "module": "./dist/my-plugin.esm-bundler.js"
+      "require": "./dist/tvux-store.cjs.js",
+      "browser": "./dist/tvux-store.esm-browser.js",
+      "import": "./dist/tvux-store.esm-bundler.js",
+      "module": "./dist/tvux-store.esm-bundler.js"
     },
     "./package.json": "./package.json"
   },

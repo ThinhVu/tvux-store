@@ -1,7 +1,7 @@
 const esbuild = require('esbuild')
 const vue = require('esbuild-plugin-vue').default
 
-const pkgName = 'my-plugin'
+const pkgName = 'tvux-store'
 
 /** @type {import('esbuild').BuildOptions} */
 const commonOptions = {
