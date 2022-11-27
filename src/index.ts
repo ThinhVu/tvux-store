@@ -14,5 +14,10 @@ export default {
   },
   create(name: string, store = {}) {
     data[name] = store
+  },
+  list(scope, prop, val) {
+    if (!data[scope])
+      data[scope] = {}
+    data[scope][prop] = val
   }
 }
